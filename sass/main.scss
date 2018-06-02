@@ -172,6 +172,7 @@
 //menu-top-CLASSES END//
 
 .main-categories {
+  padding-bottom: 60px;
   .horizontal_stripe {
     width: 249px;
     height: 25px;
@@ -188,11 +189,10 @@
     letter-spacing: 0.4px;
   }
   .main-category {
-    height: 196px;
+    min-height: 196px;
     border: 1px solid #ffeddf;
-    margin-top: 50px;
     background-color: #fff;
-    margin-bottom: 80px;
+    margin: 15px 0;
     img {
       max-height: 193px;
       z-index: 1;
@@ -212,7 +212,9 @@
     }
   }
 }
-
+.blocks{
+  padding: 20px 0 0;
+}
 .main-category_dscr {
   color: #989f9b;
   font-family: "Museo Sans Cyrl";

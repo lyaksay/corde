@@ -118,40 +118,44 @@
   color: #fff;
   background-color: #232323 !important; }
 
-.main-categories .horizontal_stripe {
-  width: 249px;
-  height: 25px; }
-.main-categories h2 {
-  margin: 50px 0 20px;
-  width: 144px;
-  height: 28px;
-  color: #000000;
-  font-family: "Yeseva One";
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0.4px; }
-.main-categories .main-category {
-  height: 196px;
-  border: 1px solid #ffeddf;
-  margin-top: 50px;
-  background-color: #fff;
-  margin-bottom: 80px; }
-  .main-categories .main-category img {
-    max-height: 193px;
-    z-index: 1;
-    position: relative; }
-  .main-categories .main-category h3 {
+.main-categories {
+  padding-bottom: 60px; }
+  .main-categories .horizontal_stripe {
+    width: 249px;
+    height: 25px; }
+  .main-categories h2 {
+    margin: 50px 0 20px;
+    width: 144px;
+    height: 28px;
     color: #000000;
-    padding: 29px 0 0 19px;
     font-family: "Yeseva One";
-    font-size: 26px;
+    font-size: 40px;
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.26px;
-    white-space: nowrap;
-    z-index: 10;
-    position: relative; }
+    line-height: 32px;
+    letter-spacing: 0.4px; }
+  .main-categories .main-category {
+    min-height: 196px;
+    border: 1px solid #ffeddf;
+    background-color: #fff;
+    margin: 15px 0; }
+    .main-categories .main-category img {
+      max-height: 193px;
+      z-index: 1;
+      position: relative; }
+    .main-categories .main-category h3 {
+      color: #000000;
+      padding: 29px 0 0 19px;
+      font-family: "Yeseva One";
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.26px;
+      white-space: nowrap;
+      z-index: 10;
+      position: relative; }
+
+.blocks {
+  padding: 20px 0 0; }
 
 .main-category_dscr {
   color: #989f9b;
