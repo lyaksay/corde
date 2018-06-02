@@ -105,11 +105,7 @@
   }
 }
 
-.dropdown:nth-child(1) {
-  .menu-top_btn {
-    margin-left: 0;
-  }
-}
+
 
 .menu-top_btn {
   color: #ffffff;
@@ -117,7 +113,7 @@
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.18px;
-  margin-left: 49px;
+  padding: 0 19px;
   &:after {
     content: url("/images/arrow-.png");
     width: unset;
@@ -140,6 +136,8 @@
   font-weight: 300;
   letter-spacing: 0.18px;
 }
+
+
 
 .menu-top_dropdown {
   background-color: #232323;
@@ -232,8 +230,13 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
+
+    position: relative;
+    z-index: 10;
+    white-space: nowrap;
     a {
       color: #000000;
+
     }
   }
 
