@@ -15,28 +15,28 @@
     <link rel="stylesheet" href="/sass/main.css">
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
     <div class="row header ">
-        <div class="col-md-4 d-flex justify-content-center">
+        <div class="col-md-4 ">
             <div class="main-logo">
                 <img src="/images/main_logo.png" alt="Логотип">
             </div>
         </div>
         <div class="col-md-3">
             <div class="h-address">
-                <span>г. Москва, ул. Московская</span> <br>
-                <span>д. 12 ТРЦ Московский</span>
+                <span class="Museo-Sans-Cyrl-300">г. Москва, ул. Московская</span> <br>
+                <span class="Museo-Sans-Cyrl-300">д. 12 ТРЦ Московский</span>
             </div>
         </div>
         <div class="col-md-2">
             <div class="h-mail">
-                <p></p><span>yourmail@gmail.com</span>
+                <p></p><span class="Museo-Sans-Cyrl-300">yourmail@gmail.com</span>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 text-right">
             <div class="h-contacts">
                 <h4>+7 (123) 456 - 78 -90</h4>
-                <span class="h-workinghours">Время работы с 9:00 до 18:00</span>
+                <span class="h-workinghours Museo-Sans-Cyrl-300">Время работы с 9:00 до 18:00</span>
             </div>
         </div>
     </div>

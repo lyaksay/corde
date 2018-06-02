@@ -47,6 +47,12 @@
 
 //HEADER-CLASSES//
 
+.Museo-Sans-Cyrl-300 {
+  font-family: "Museo Sans Cyrl";
+  font-weight: 300;
+  font-size: 16px;
+}
+
 .header {
   padding: 25px 0;
 }
@@ -68,9 +74,6 @@
 
 .h-workinghours {
   color: #989f9b;
-  font-family: "Museo Sans Cyrl";
-  font-size: 16px;
-  font-weight: 300;
   letter-spacing: 0.16px;
 }
 
@@ -99,6 +102,12 @@
   padding: 13px 0;
   a:hover {
     color: #ffffff;
+  }
+}
+
+.dropdown:nth-child(1) {
+  .menu-top_btn {
+    margin-left: 0;
   }
 }
 
@@ -157,6 +166,11 @@
 }
 
 
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #232323 !important;
+}
+
 //menu-top-CLASSES END//
 
 .main-categories {
@@ -181,15 +195,22 @@
     margin-top: 50px;
     background-color: #fff;
     margin-bottom: 80px;
+    img {
+      max-height: 193px;
+      z-index: 1;
+      position: relative;
+    }
     h3 {
       color: #000000;
-      padding: 29px 19px;
+      padding: 29px 0 0 19px;
       font-family: "Yeseva One";
       font-size: 26px;
       font-weight: 400;
       line-height: 20px;
       letter-spacing: 0.26px;
-      float: left;
+      white-space: nowrap;
+      z-index: 10;
+      position: relative;
     }
   }
 }
@@ -200,19 +221,22 @@
   font-weight: 300;
   letter-spacing: 0.14px;
   font-size: 14px;
-  float: left;
 }
 
 .main-category-list {
   list-style-type: none;
-  list-style: #e5b58f;
+  list-style-type: disc;
   li {
-    color: #000000;
+    color: #e5b58f;
     font-family: "Museo Sans Cyrl";
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
+    a {
+      color: #000000;
+    }
   }
+
 }
 
 .main-categories__silver {
