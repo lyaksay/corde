@@ -1,35 +1,53 @@
 <div class="container-fluid">
     <div class="row top-nav">
-        <div class="col-md-6 d-flex justify-content-center">
+        <div class="col-md-5 d-flex justify-content-center">
 
             <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="menu-top_btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Золото
                 </a>
 
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                <div class="menu-top_dropdown dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">
+                        Комплекты (кольца-серьги)
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        Кольца помолвочные
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        Пуссеты
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        Детские серьги
+                    </a>
                 </div>
             </div>
 
 
             <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="menu-top_btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Серебро
                 </a>
 
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                <div class="menu-top_dropdown dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">
+                        Комплекты (кольца-серьги)
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        Кольца помолвочные
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        Пуссеты
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        Детские серьги
+                    </a>
                 </div>
             </div>
-
         </div>
+
         <div class="col-md-2 ml-auto">
-            <a href="#">О компании</a>
+            <a class="about-company" href="#">О компании</a>
         </div>
     </div>
 </div>

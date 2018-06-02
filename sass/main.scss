@@ -45,16 +45,119 @@
   font-style: normal;
 }
 
-
+//HEADER-CLASSES//
 
 .header {
-  padding: 24px 0;
+  padding: 25px 0;
 }
+
+.h-contacts h4{
+  color: #000000;
+  font-family: "Museo Sans Cyrl";
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0.23px;
+}
+
+.h-address:before {
+  content: url("/images/geo.svg");
+  position: absolute;
+  left:-26px;
+  top:10px;
+}
+
+.h-workinghours {
+  color: #989f9b;
+  font-family: "Museo Sans Cyrl";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.16px;
+}
+
+.h-mail span {
+  color: #000000;
+  font-family: "Museo Sans Cyrl";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  &:before {
+    content: url("/images/mail.svg");
+    position: absolute;
+    left: -35px;
+    top: 17px;
+  }
+}
+
+//HEADER-CLASSES END//
+
+
+//menu-top-CLASSES//
 
 .top-nav {
   background-color: #232323;
-  padding: 5px 0;
+  padding: 13px 0;
+  a:hover {
+    color: #ffffff;
+  }
 }
+
+.menu-top_btn {
+  color: #ffffff;
+  font-family: "Museo Sans Cyrl";
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.18px;
+  margin-left: 49px;
+  &:after {
+    content: url("/images/arrow-.png");
+    width: unset;
+    height: unset;
+    border: unset;
+    padding: unset;
+    margin: unset;
+    vertical-align: unset;
+
+    position: relative;
+    top: -2px;
+    right: -6px;
+  }
+}
+
+.about-company {
+  color: #ffffff;
+  font-family: "Museo Sans Cyrl";
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.18px;
+}
+
+.menu-top_dropdown {
+  background-color: #232323;
+  width: 297px;
+  height: 166px;
+  color: #ffffff;
+  font-family: "Museo Sans Cyrl ";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.16px;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  clear: both;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: inherit;
+  white-space: nowrap;
+  background: 0 0;
+  border: 0;
+}
+
+
+//menu-top-CLASSES END//
 
 .main-categories {
   .horizontal_stripe {
@@ -62,7 +165,6 @@
     height: 25px;
   }
   h2 {
-    // Style for "Золото"
     margin: 50px 0 20px;
     width: 144px;
     height: 28px;
@@ -71,7 +173,6 @@
     font-size: 40px;
     font-weight: 400;
     line-height: 32px;
-    // Text style for "З, олото"
     letter-spacing: 0.4px;
   }
   .main-category {
@@ -80,6 +181,37 @@
     margin-top: 50px;
     background-color: #fff;
     margin-bottom: 80px;
+    h3 {
+      color: #000000;
+      padding: 29px 19px;
+      font-family: "Yeseva One";
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.26px;
+      float: left;
+    }
+  }
+}
+
+.main-category_dscr {
+  color: #989f9b;
+  font-family: "Museo Sans Cyrl";
+  font-weight: 300;
+  letter-spacing: 0.14px;
+  font-size: 14px;
+  float: left;
+}
+
+.main-category-list {
+  list-style-type: none;
+  list-style: #e5b58f;
+  li {
+    color: #000000;
+    font-family: "Museo Sans Cyrl";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
   }
 }
 

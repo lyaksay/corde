@@ -17,9 +17,10 @@
                 <div class="main-category">
                     <div class="row">
                         <div class="col-md-5">
-                            <h3>Комплекты</h3>
-                            <ul>
-                                <li>Рубины</li>
+                            <h3>Комплекты <span class="main-category_dscr">(серьги-кольца)</span></h3>
+
+                            <ul class="main-category-list">
+                                <li>aРубины</li>
                                 <li>Сапфиры</li>
                                 <li>Изумруды</li>
                             </ul>
@@ -41,7 +42,7 @@
                 <div class="main-category">
                     <div class="row">
                         <div class="col-md-5">
-                            <h3>Комплекты</h3>
+                            <h3>Пуссеты</h3>
                             <ul>
                                 <li>Рубины</li>
                                 <li>Сапфиры</li>
@@ -56,7 +57,7 @@
             </div>
             <div class="col-md-6">
                 <div class="main-category">
-                    <h3>Кольца помолвочные</h3>
+                    <h3>Детские серьги</h3>
                 </div>
             </div>
         </div>
@@ -103,4 +104,4 @@
 </div>
 
 
-<?php include ('partials/header.php')?>
+<?php include ('partials/footer.php')?>
