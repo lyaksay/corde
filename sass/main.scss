@@ -152,13 +152,10 @@ $Museo-Sans-Cyrl: "Museo Sans Cyrl";
   }
 }
 
-.about-company {
-  color: #ffffff;
-  font-family: $Museo-Sans-Cyrl;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 0.18px;
+.menu-top_btn--no-arrow:after {
+  content: none;
 }
+
 
 .menu-top_dropdown {
   background-color: #232323;
@@ -565,9 +562,13 @@ $Museo-Sans-Cyrl: "Museo Sans Cyrl";
 
 
 
-
-
-
+.menu-top__item--right {
+  margin-left: auto;
+  order: 2;
+}
+.menu-top_btn--no-arrow{
+  padding-right: 0;
+}
 
 
 

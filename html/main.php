@@ -17,7 +17,11 @@
                 <div class="main-category">
                     <div class="row">
                         <div class="col-md-6 col-6">
-                            <h3>Комплекты <span class="main-category_dscr">(серьги-кольца)</span></h3>
+                            <h3>Комплекты
+                                <span class="main-category_dscr d-none d-sm-block">
+                                    (серьги-кольца)
+                                </span>
+                            </h3>
                             <ul class="main-category-list">
                                 <li><a href="#">Рубины</a></li>
                                 <li><a href="#">Сапфиры</a></li>
@@ -103,7 +107,7 @@
                 <div class="main-category">
                     <div class="row">
                         <div class="col-md-6">
-                            <h3>Комплекты <span class="main-category_dscr">(серьги-кольца)</span></h3>
+                            <h3>Комплекты <span class="main-category_dscr d-none d-sm-block">(серьги-кольца)</span></h3>
 
                             <ul class="main-category-list">
                                 <li><a href="#">Рубины</a></li>
