@@ -8,13 +8,12 @@
         </div>
         <div class="col-md-3">
             <div class="h-address">
-                <span class="Museo-Sans-Cyrl-300">г. Москва, ул. Московская</span> <br>
-                <span class="Museo-Sans-Cyrl-300">д. 12 ТРЦ Московский</span>
+                <span class="Museo-Sans-Cyrl-300">г. Москва, ул. Московская <br> д. 12 ТРЦ Московский</span>
             </div>
         </div>
         <div class="col-md-2">
             <div class="h-mail">
-                <p></p><span class="Museo-Sans-Cyrl-300">yourmail@gmail.com</span>
+                <span class="Museo-Sans-Cyrl-300">yourmail@gmail.com</span>
             </div>
         </div>
         <div class="col-md-3 text-right">
