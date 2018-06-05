@@ -13,6 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="/sass/responsive.css">
 </head>
 <body>
 <div class="container">
@@ -32,7 +33,7 @@
                 <span class="Museo-Sans-Cyrl-300">yourmail@gmail.com</span>
             </div>
         </div>
-        <div class="col-md-3 text-right">
+        <div class="col-md-3">
             <div class="h-contacts">
                 <h4>+7 (123) 456 - 78 -90</h4>
                 <span class="h-workinghours Museo-Sans-Cyrl-300">Время работы с 9:00 до 18:00</span>

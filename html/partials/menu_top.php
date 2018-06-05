@@ -33,7 +33,7 @@
 
         </div>
 
-        <div class="col-md-2 ml-auto text-right">
+        <div class="col-md-2 d-flex ml-auto">
             <a class="about-company" href="#">О компании</a>
         </div>
 
