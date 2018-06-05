@@ -1,11 +1,7 @@
-<div class="top-nav">
+<div class="top-nav ">
 <div class="container menu-top__items">
     <div class="row">
-        <div class="col-md-5 d-flex">
-            <!--<div class="menu-top__items">
-                <div class="menu-top__item"></div>
-                <div class="menu-top__item"></div>
-            </div>-->
+        <div class=" col-md-5 d-flex">
             <div class="menu-top__item dropdown">
 
                 <a class="menu-top_btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

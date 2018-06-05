@@ -45,13 +45,30 @@
   font-style: normal;
 }
 
-//HEADER-CLASSES//
+body {
+  line-height: unset;
+}
+
+a {
+  color: unset;
+  &:hover {
+    text-decoration: none;
+    color: unset;
+  }
+}
+
+
+$Museo-Sans-Cyrl: "Museo Sans Cyrl";
 
 .Museo-Sans-Cyrl-300 {
-  font-family: "Museo Sans Cyrl";
+  font-family: $Museo-Sans-Cyrl;
   font-weight: 300;
   font-size: 16px;
 }
+
+
+
+//HEADER-CLASSES//
 
 .header {
   padding: 25px 0;
@@ -59,44 +76,52 @@
 
 .h-contacts h4{
   color: #000000;
-  font-family: "Museo Sans Cyrl";
+  font-family: $Museo-Sans-Cyrl;
   font-size: 23px;
   font-weight: 700;
   letter-spacing: 0.23px;
+}
+
+.h-address span {
+  margin-bottom: 8px;
+  display: block;
 }
 
 .h-address:before {
   content: url("/images/geo.svg");
   position: absolute;
   left:-26px;
-  top:10px;
+  top:5px;
 }
 
 .h-workinghours {
-  color: #989f9b;
+  color: rgb(169, 173, 171);
   letter-spacing: 0.16px;
 }
 
-.h-mail span {
-  color: #000000;
-  font-family: "Museo Sans Cyrl";
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 26px;
-  letter-spacing: 0.16px;
-  &:before {
-    content: url("/images/mail.svg");
-    position: absolute;
-    left: -35px;
-    top: 17px;
+.h-mail {
+  padding-top: 3px;
+  span {
+    color: rgba(0,0,0,1);
+    font-family: $Museo-Sans-Cyrl;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.16px;
   }
 }
 
+.h-mail:before {
+  content: url("/images/mail.svg");
+  position: absolute;
+  left: -35px;
+  top: 5px;
+}
 //HEADER-CLASSES END//
 
 
-//menu-top-CLASSES//
 
+//menu-top-CLASSES//
 .top-nav {
   background-color: #232323;
   padding: 13px 0;
@@ -105,11 +130,9 @@
   }
 }
 
-
-
 .menu-top_btn {
   color: #ffffff;
-  font-family: "Museo Sans Cyrl";
+  font-family: $Museo-Sans-Cyrl;
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.18px;
@@ -131,20 +154,18 @@
 
 .about-company {
   color: #ffffff;
-  font-family: "Museo Sans Cyrl";
+  font-family: $Museo-Sans-Cyrl;
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.18px;
 }
-
-
 
 .menu-top_dropdown {
   background-color: #232323;
   width: 297px;
   height: 166px;
   color: #ffffff;
-  font-family: "Museo Sans Cyrl ";
+  font-family: $Museo-Sans-Cyrl;
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
@@ -168,9 +189,10 @@
   color: #fff;
   background-color: #232323 !important;
 }
-
 //menu-top-CLASSES END//
 
+
+//main-top-CLASSES//
 .main-categories {
   padding-bottom: 60px;
   .horizontal_stripe {
@@ -217,7 +239,7 @@
 }
 .main-category_dscr {
   color: #989f9b;
-  font-family: "Museo Sans Cyrl";
+  font-family: $Museo-Sans-Cyrl;
   font-weight: 300;
   letter-spacing: 0.14px;
   font-size: 14px;
@@ -228,7 +250,7 @@
   list-style-type: disc;
   li {
     color: #e5b58f;
-    font-family: "Museo Sans Cyrl";
+    font-family: $Museo-Sans-Cyrl;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -248,12 +270,13 @@
   background-color: #fafafa;
 }
 
-.menu-left {
-  height: 415px;
-  border-radius: 5px;
-  border: 1px solid #ffeddf;
-}
 
+//main-top-CLASSES-END//
+
+
+
+
+//-----Category-CLASSES--------//
 .category {
   border-top: 1px solid #dfdfdf;
   margin-top: 20px;
@@ -262,12 +285,11 @@
 
 .prod-item {
   text-align: center;
-  height: 244px;
-  border-radius: 5px;
-  border: 1px solid #ffeddf;
-  margin-right: 20px;
-  &:last-child {
-    margin-right: 0;
+  margin-bottom: 19px;
+  position: relative;
+  height: 290px;
+  &:hover {
+    z-index: 1;
   }
 }
 
@@ -275,30 +297,215 @@
   margin-bottom: 19px;
 }
 
+.prod-item--inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.prod-item--inn2 {
+  position: relative;
+  border: 1px solid #ffeddf;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #fff;
+  &:hover {
+    padding-bottom: 25px;
+    box-shadow: 0 3px 27px #efefef;
+  }
+  &:hover .prod-item--info {
+    display: block;
+    z-index: 10;
+  }
+}
+
+.prod-item--info {
+  display: none;
+  text-align: center;
+  margin-top: 10px;;
+}
+
+.prod-item--btn {
+  border-radius: 19px;
+  background-color: #e5b58f;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 2s;
+  &:hover{
+    box-shadow: 0 3px 27px #ffd9bb;
+    color:#fff;
+    transition: 0.2s;
+  }
+}
+
 .prod-item__link {
   color: #000000;
-  font-family: "Museo Sans Cyrl";
+  font-family: $Museo-Sans-Cyrl;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.3;
   letter-spacing: 0.19px;
+  margin-top: 15px;
+  display: block;
 }
 
+.prod-item--sku {
+  display: block;
+  color: #757575;
+  font-family: $Museo-Sans-Cyrl;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17.86px;
+  letter-spacing: 0.16px;
+  padding: 12px 0 8px;
+}
+
+.prod-item--price {
+  display: block;
+  color: #000000;
+  font-family: $Museo-Sans-Cyrl;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 17.86px;
+  letter-spacing: 0.24px;
+  padding: 8px 0 18px;
+}
+
+.prod-item--title {
+  color: rgba(0,0,0,0.8);
+  font-family: $Museo-Sans-Cyrl;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.86px;
+  letter-spacing: 0.19px;
+}
+//-----Category-CLASSES-END--------//
 
 
 
 
+//-----LEFT-MENU-CLASSES---------//
+.menu-left {
+  height: 445px;
+  border-radius: 5px;
+  border: 1px solid #ffeddf;
+  padding: 15px 20px;
+}
+
+.ml-checkbox {
+  .menu_checkbox {
+    cursor: pointer;
+  }
+}
+
+.title_check {
+  color: #000000;
+  font-family: "Museo Sans Cyrl";
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.14px;
+  padding-left: 5px;
+  line-height: 24px;
+}
+
+.hidden_check{
+  display: none;
+}
+.imitate_check{
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  background: #e5e5e5;
+  float: left;
+  border-radius: 5px;
+}
+
+.imitate_check--checked {
+  background-color: #e5b58f;
+  vertical-align: middle;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    background-image: url(/images/check.svg);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}
+
+.ml-form--title {
+  color: #000000;
+  font-family: "Museo Sans Cyrl";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0.16px;
+}
+//-----LEFT-MENU-CLASSES-END---------//
 
 
 
 
+//------FILTER-CLASSES---------------//
+.filter-title {
+  color: #000000;
+  font-family: "Yeseva One";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.35px;
+}
+
+.filter-variant {
+  color: #989f9b;
+  font-family: "Museo Sans Cyrl ";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.14px;
+  margin-right: 19px;
+}
+
+.filter a:hover {
+  border-bottom: 1px #e5b58f solid;
+  color:#989f9b;
+}
+
+.filter-variant--bold {
+  font-weight: 700;
+}
+
+//------FILTER-CLASSES-END-----------//
 
 
+//---------PRODUCT-CARD-CLASSES---------//
 
+.product-card {
+  padding: 50px 0;
+}
 
+.product-pic {
+  border-radius: 5px;
+  border: 1px solid #ffeddf;
+}
 
+.product-card--pic {
+  padding: 5px;
+}
 
+.product-pic-min:nth-child(2) {
+  margin-top: 35px;
+}
 
+//---------PRODUCT-CARD-CLASSES-END--------//
 
 
 
