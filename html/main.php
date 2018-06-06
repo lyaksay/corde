@@ -1,4 +1,5 @@
 <?php include ('partials/header.php')?>
+<?php include ('partials/info.php')?>
 
 <?php include ('partials/menu_top.php')?>
 
@@ -181,4 +182,4 @@
 </div>
 
 
-<?php include ('partials/footer.php')?>
+<?php include('partials/info.php') ?>

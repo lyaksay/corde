@@ -1,6 +1,8 @@
 <?php include ('../partials/header.php')?>
+<?php include ('../partials/info.php')?>
 
 
+<div class="category-page">
 <div class="container">
     <div class="row">
 
@@ -8,7 +10,7 @@
 
         <div class="col-md-9 ">
             <h2 class="filter-title">Комплекты</h2>
-            <div class="filter" ">
+            <div class="filter">
                 <span class="filter-variant filter-variant--bold">Сортировка:</span>
                 <a class="filter-variant filter-variant--active" href="#">По популярности</a>
                 <a class="filter-variant" href="#">От дешевых</a>
@@ -328,7 +330,8 @@
         </div>
     </div>
 </div>
+</div>
 
 <hr>
 
-<?php include('../partials/header.php') ?>
+<?php include('../partials/info.php') ?>
