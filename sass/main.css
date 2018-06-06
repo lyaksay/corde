@@ -101,6 +101,14 @@ a {
     top: -2px;
     right: -6px; }
 
+.dropdown-menu--underline {
+  border-bottom: 4px solid #e5b58f;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: -15px;
+  left: 0; }
+
 .menu-top_btn--no-arrow:after {
   content: none; }
 
@@ -129,6 +137,19 @@ a {
 .dropdown-item:hover {
   color: #fff;
   background-color: #232323 !important; }
+
+.submenu-title {
+  padding-left: 12px;
+  position: relative; }
+
+.submenu-round {
+  position: absolute;
+  left: 0;
+  background: #e5b58f;
+  top: 7px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%; }
 
 .menu-top__item--right {
   margin-left: auto;

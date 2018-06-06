@@ -9,10 +9,26 @@
                     </a>
 
                     <ul class="menu-top_dropdown dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Комплекты (кольца-серьги)</a></li>
-                        <li><a class="dropdown-item" href="#">Кольца помолвочные</a></li>
-                        <li><a class="dropdown-item" href="#">Пуссеты</a></li>
-                        <li><a class="dropdown-item" href="#">Детские серьги</a></li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <span class="submenu-title">
+                                    <span class="submenu-round"></span>Комплекты (кольца-серьги)
+                                </span>
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">
+                                <span class="submenu-title">
+                                    <span class="submenu-round"></span>Кольца помолвочные
+                                </span>
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item" href="#"><span class="submenu-title">
+                                    <span class="submenu-round"></span>Пуссеты
+                                </span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="submenu-title">
+                                    <span class="submenu-round"></span> Детские серьги
+                                </span></a></li>
                     </ul>
                 </div>
 
@@ -24,10 +40,26 @@
                     </a>
 
                     <ul class="menu-top_dropdown dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Комплекты (кольца-серьги)</a></li>
-                        <li><a class="dropdown-item" href="#">Кольца помолвочные</a></li>
-                        <li><a class="dropdown-item" href="#">Пуссеты</a></li>
-                        <li><a class="dropdown-item" href="#">Детские серьги</a></li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <span class="submenu-title">
+                                    <span class="submenu-round"></span>Комплекты (кольца-серьги)
+                                </span>
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">
+                                <span class="submenu-title">
+                                    <span class="submenu-round"></span>Кольца помолвочные
+                                </span>
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item" href="#"><span class="submenu-title">
+                                    <span class="submenu-round"></span>Пуссеты
+                                </span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="submenu-title">
+                                    <span class="submenu-round"></span> Детские серьги
+                                </span></a></li>
                     </ul>
                 </div>
 
