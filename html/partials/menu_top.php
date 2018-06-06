@@ -48,11 +48,11 @@
 </div>
 
 <!--  -->
-<nav class="navbar navbar-expand-md  navbar-dark bg-dark d-sm-none" >
+<nav class="navbar navbar-expand-md  navbar-dark bg-black d-sm-none" >
     <div class="container">
 
         <!-- Button -->
-        <a class="navbar-brand" href="#">МЕНЮ</a>
+        <a class="navbar-brand" href="#">Меню</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -60,22 +60,14 @@
         <!-- Elements -->
         <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa d-inline fa-lg fa-bookmark-o"></i> Bookmarks</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa d-inline fa-lg fa-envelope-o"></i> Contacts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa d-inline fa-lg fa-envelope-o"></i> Contacts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa d-inline fa-lg fa-envelope-o"></i> Contacts</a>
-                </li>
+                <li class="nav-item"><a class="mmenu__link mmenu__link--head nav-link" href="#"> Золото </a> </li>
+                <li class="nav-item"> <a class="mmenu__link nav-link" href="#">Комплекты</a></li>
+                <li class="nav-item"> <a class="mmenu__link nav-link" href="#">Комплекты</a></li>
+                <li class="nav-item"> <a class="mmenu__link nav-link" href="#">Комплекты</a></li>
+                <li class="nav-item"><a class="mmenu__link mmenu__link--head nav-link" href="#">Серебро</a></li>
+                <li class="nav-item"><a class="mmenu__link nav-link" href="#">Contacts</a></li>
+                <li class="nav-item"><a class="mmenu__link nav-link" href="#">Contacts</a></li>
+                <li class="nav-item"><a class="mmenu__link nav-link" href="#">Contacts</a></li>
             </ul>
         </div>
         <!-- END -->

@@ -19,9 +19,9 @@
 <div class="container">
     <div class="row header ">
         <div class="col-md-4 col-lg-4">
-            <div class="main-logo">
+            <a href="#" class="main-logo">
                 <img src="/images/main_logo.png" alt="Логотип">
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-lg-3">
             <div class="h-address">

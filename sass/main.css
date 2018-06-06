@@ -130,6 +130,13 @@ a {
   color: #fff;
   background-color: #232323 !important; }
 
+.menu-top__item--right {
+  margin-left: auto;
+  order: 2; }
+
+.menu-top_btn--no-arrow {
+  padding-right: 0; }
+
 .main-categories {
   padding-bottom: 60px; }
   .main-categories .horizontal_stripe {
@@ -174,7 +181,8 @@ a {
   font-family: "Museo Sans Cyrl";
   font-weight: 300;
   letter-spacing: 0.14px;
-  font-size: 14px; }
+  font-size: 14px;
+  display: inline !important; }
 
 .main-category-list {
   list-style-type: none;
@@ -423,11 +431,30 @@ a {
   line-height: 24px;
   letter-spacing: 0.32px; }
 
-.menu-top__item--right {
-  margin-left: auto;
-  order: 2; }
+.navbar-brand {
+  color: #ffffff;
+  font-family: "Museo Sans Cyrl" !important;
+  font-size: 18px;
+  font-weight: 300; }
 
-.menu-top_btn--no-arrow {
-  padding-right: 0; }
+.bg-black {
+  background-color: #232323; }
+
+.navbar-dark .navbar-nav .mmenu__link {
+  color: #fff; }
+
+.mmenu__link {
+  font-family: "Museo Sans Cyrl";
+  color: #fff;
+  font-weight: 500;
+  font-size: 100%; }
+
+.mmenu__link--head {
+  font-size: 125%;
+  font-weight: 700;
+  margin-top: 10px; }
+
+.navbar-dark .navbar-toggler {
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

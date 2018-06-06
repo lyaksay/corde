@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="col-md-6 col-6">
                             <h3>Комплекты
-                                <span class="main-category_dscr d-none d-sm-block">
+                                <span class="main-category_dscr">
                                     (серьги-кольца)
                                 </span>
                             </h3>
@@ -28,8 +28,8 @@
                                 <li><a href="#">Изумруды</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-6 col-6">
-                            <img class="img-fluid" src="/images/21.png" alt="">
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <img class="img-fluid" src="/images/21.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                                 <li><a href="#">Изумруды</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 d-flex justify-content-center">
                             <img src="/images/green_diamond.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                                 <li><a href="#">Изумруды</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 d-flex justify-content-center">
                             <img src="/images/cepochka.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                                 <li><a href="#">Изумруды</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 d-flex justify-content-center">
                             <img src="/images/children.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                 <div class="main-category">
                     <div class="row">
                         <div class="col-md-6">
-                            <h3>Комплекты <span class="main-category_dscr d-none d-sm-block">(серьги-кольца)</span></h3>
+                            <h3>Комплекты <span class="main-category_dscr ">(серьги-кольца)</span></h3>
 
                             <ul class="main-category-list">
                                 <li><a href="#">Рубины</a></li>
@@ -116,7 +116,7 @@
                                 <li><a href="#">Полудрагоценные камни и янтарь</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 d-flex justify-content-center">
                             <img class="img-fluid" src="/images/red-stones.jpg" alt="">
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                                 <li><a href="#">Изумруды</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 d-flex justify-content-center">
                             <img src="/images/green-earrings.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
