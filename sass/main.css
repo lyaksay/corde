@@ -270,7 +270,10 @@ a {
   background-color: #e5b58f;
   padding: 10px 30px;
   color: #fff;
-  transition: 2s; }
+  transition: 2s;
+  font-family: "Museo Sans Cyrl";
+  font-weight: 700;
+  font-size: 14px; }
   .prod-item--btn:hover {
     box-shadow: 0 3px 27px #ffd9bb;
     color: #fff;
@@ -315,7 +318,6 @@ a {
   letter-spacing: 0.19px; }
 
 .menu-left {
-  height: 445px;
   border-radius: 5px;
   border: 1px solid #ffeddf;
   padding: 15px 20px; }
@@ -384,7 +386,7 @@ a {
   letter-spacing: 0.14px;
   margin-right: 19px; }
 
-.filter a:hover {
+.filter a:hover, .filter-variant--active {
   border-bottom: 1px #e5b58f solid;
   color: #989f9b; }
 
@@ -423,6 +425,10 @@ a {
 
 .product-pic-min:nth-child(2) {
   margin-top: 11px; }
+
+.product-pic--big {
+  margin: 0 auto;
+  display: block; }
 
 .feature {
   float: left;

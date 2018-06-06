@@ -5,6 +5,13 @@
   .Museo-Sans-Cyrl-300 {
     font-size: 14px !important ;
   }
+  .product-pic-min {
+    height: 142px;
+  }
+  .img-product--small {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
 
 
@@ -15,6 +22,28 @@
   }
 }
 
+@media  (max-width: 991px) {
+  .product-pic-min {
+    height: 159px;
+    float: left;
+  }
+
+  .product-pic-min:nth-child(2) {
+    margin-top: 0;
+    float: right;
+  }
+  .product-card-smalls {
+    margin-top: 20px;
+  }
+}
+
+
+@media (min-width:768px) and (max-width:1199px) {
+  .prod-item--btn {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+}
 
 @media (max-width:768px) {
   .h-contacts h4 {
@@ -63,10 +92,57 @@
     white-space: normal;
   }
 
+  .product-pic-min {
+    margin-right: 15px;
+  }
+
+  .product-pic-min:nth-child(2) {
+    float: left;
+
+  }
+}
+
+@media (max-width:576px) {
+  .prod-item--info, .prod-item--inn2:hover .prod-item--info {
+    display: block;
+  }
+  .prod-item--inn2 {
+    padding-bottom: 25px;
+  }
+
+  .prod-item {
+    margin-bottom: 35px;
+  }
+
+}
+
+@media (max-width:375px) {
+  .product-pic-min {
+    float: left;
+    width:45%;
+    margin-right: 0;
+    height: 155px;
+  }
+
+  .product-pic-min:nth-child(2) {
+    margin-top: 0;
+    float: right;
+    width:45%;
+  }
+
 }
 
 @media (max-width:321px) {
   .main-category_dscr {
     display: none !important;
   }
+
+  .product-pic-min {
+    float: left;
+    width:45%;
+    margin-right: 0;
+    height: 135px;
+  }
+
+
 }

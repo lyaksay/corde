@@ -365,6 +365,9 @@ $Museo-Sans-Cyrl: "Museo Sans Cyrl";
   padding: 10px 30px;
   color: #fff;
   transition: 2s;
+  font-family:"Museo Sans Cyrl";
+  font-weight: 700;
+  font-size: 14px;
   &:hover{
     box-shadow: 0 3px 27px #ffd9bb;
     color:#fff;
@@ -420,7 +423,6 @@ $Museo-Sans-Cyrl: "Museo Sans Cyrl";
 
 //-----LEFT-MENU-CLASSES---------//
 .menu-left {
-  height: 445px;
   border-radius: 5px;
   border: 1px solid #ffeddf;
   padding: 15px 20px;
@@ -505,14 +507,17 @@ $Museo-Sans-Cyrl: "Museo Sans Cyrl";
   margin-right: 19px;
 }
 
-.filter a:hover {
+.filter a:hover, .filter-variant--active {
   border-bottom: 1px #e5b58f solid;
   color:#989f9b;
+
 }
 
 .filter-variant--bold {
   font-weight: 700;
 }
+
+
 
 //------FILTER-CLASSES-END-----------//
 
@@ -559,8 +564,13 @@ $Museo-Sans-Cyrl: "Museo Sans Cyrl";
 
 .product-pic-min:nth-child(2) {
   margin-top: 11px;
-
 }
+
+.product-pic--big {
+  margin: 0 auto;
+  display: block;
+}
+
 .feature{
   float: left;
   width: 100%;

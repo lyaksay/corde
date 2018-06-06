@@ -6,22 +6,22 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="row">
-                    <div class="col-md-8 product-card--pic">
+                    <div class="col-md-12 col-lg-8 product-card--pic">
                         <div class="product-pic product-pic--big">
                             <a href="#">
-                                <img class="img-fluid" src="/images/big-product-pic.jpg" alt="">
+                                <img class="img-fluid product-pic--big " src="/images/big-product-pic.jpg" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4 product-card--pic">
+                    <div class="col-md-12 col-lg-4 product-card--pic product-card-smalls">
                         <div class="product-pic product-pic-min">
                             <a href="#">
-                                <img class="img-fluid" src="/images/small-product-pic.jpg" alt="">
+                                <img class="img-fluid img-product--small" src="/images/small-product-pic.jpg" alt="">
                             </a>
                         </div>
                         <div class="product-pic product-pic-min">
                             <a href="#">
-                                <img class="img-fluid" src="/images/small-product-pic.jpg" alt="">
+                                <img class="img-fluid img-product--small" src="/images/small-product-pic.jpg" alt="">
                             </a>
                         </div>
                     </div>
